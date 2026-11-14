@@ -10,4 +10,5 @@ export 'src/components/sdc_progress_indicator.dart';
 export 'src/components/sdc_surface.dart';
 export 'src/components/sdc_text_field.dart';
 export 'src/foundation/sdc_tokens.dart';
+export 'src/foundation/sdc_typography.dart';
 export 'src/theme/sdc_theme.dart';
