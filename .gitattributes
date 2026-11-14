@@ -1,0 +1,6 @@
+# SDT-002 canonical assets: preserve original LF bytes across Windows/Linux.
+# typography.json is SHA-pinned by its generated Web and Flutter exports.
+tokens/typography.json -text
+exports/web/sengiala-typography-tokens.css -text
+scripts/export_typography.py text eol=lf
+packages/sengiala_component_library/lib/src/foundation/sdc_typography.dart text eol=lf

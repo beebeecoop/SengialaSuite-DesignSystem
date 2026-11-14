@@ -1,0 +1,127 @@
+{
+  "contract": "SDT-002",
+  "version": "1.0.0",
+  "status": "approved",
+  "approval_date": "2026-11-15",
+  "owner_decision": "Option C — Inter Variable + Plus Jakarta Sans",
+  "families": {
+    "sans": {
+      "name": "Inter",
+      "css_alias": "Sengiala Inter",
+      "fallback": [
+        "ui-sans-serif",
+        "system-ui",
+        "-apple-system",
+        "Segoe UI",
+        "Arial",
+        "sans-serif"
+      ],
+      "weights": [
+        400,
+        500,
+        600,
+        700
+      ]
+    },
+    "display": {
+      "name": "Plus Jakarta Sans",
+      "css_alias": "Sengiala Plus Jakarta Sans",
+      "fallback": [
+        "Sengiala Inter",
+        "Inter",
+        "Segoe UI",
+        "sans-serif"
+      ],
+      "weights": [
+        400,
+        500,
+        600,
+        700
+      ]
+    },
+    "mono": {
+      "name": "Consolas",
+      "css_alias": "Consolas",
+      "fallback": [
+        "Liberation Mono",
+        "Menlo",
+        "monospace"
+      ],
+      "weights": [
+        400,
+        500,
+        600,
+        700
+      ]
+    }
+  },
+  "semantic": {
+    "body": "sans",
+    "navigation": "sans",
+    "form": "sans",
+    "table": "sans",
+    "financial": "sans",
+    "display": "display",
+    "code": "mono"
+  },
+  "weights": {
+    "regular": 400,
+    "medium": 500,
+    "semibold": 600,
+    "bold": 700
+  },
+  "sizes": {
+    "2xs": "0.625rem",
+    "xs": "0.75rem",
+    "sm": "0.875rem",
+    "md": "1rem",
+    "lg": "1.125rem",
+    "xl": "1.25rem",
+    "2xl": "1.5rem",
+    "3xl": "1.875rem",
+    "4xl": "2.25rem",
+    "5xl": "3rem"
+  },
+  "line_heights": {
+    "tight": 1.2,
+    "normal": 1.5,
+    "relaxed": 1.7
+  },
+  "tracking": {
+    "tight": "-0.015em",
+    "normal": "0",
+    "wide": "0.04em"
+  },
+  "components": {
+    "page_heading": {
+      "family": "display",
+      "weight": "semibold"
+    },
+    "dashboard_heading": {
+      "family": "display",
+      "weight": "semibold"
+    },
+    "body_text": {
+      "family": "body",
+      "weight": "regular"
+    },
+    "navigation_label": {
+      "family": "navigation",
+      "weight": "medium"
+    },
+    "form_label": {
+      "family": "form",
+      "weight": "medium"
+    },
+    "financial_amount": {
+      "family": "financial",
+      "weight": "medium",
+      "numeric": "tabular-nums"
+    }
+  },
+  "governance": {
+    "owner_approved": true,
+    "release_requires_ci_and_package_certification": true,
+    "production_deployment_separate": true
+  }
+}
